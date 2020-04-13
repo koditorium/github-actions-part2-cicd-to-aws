@@ -6,8 +6,8 @@ name: ITTralee-Devops-Assignment-Pipeline
 #environment variables
 env:
   EB_PACKAGE_S3_BUCKET_NAME: "tralee-devops.flask-app" 
-  EB_APPLICATION_NAME      : "MyDevopsProject" 
-  EB_ENVIRONMENT_NAME      :  "Mydevopsproject-env"
+  EB_APPLICATION_NAME      : "devops-assignment" 
+  EB_ENVIRONMENT_NAME      :  "DevopsAssignment-env"
   DEPLOY_PACKAGE_NAME      : "flask-app-${{ github.sha }}.zip" 
   AWS_REGION_NAME          : "eu-west-1"  
 
